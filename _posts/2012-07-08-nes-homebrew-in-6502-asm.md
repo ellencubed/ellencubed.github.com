@@ -51,5 +51,3 @@ IRQ:
 
 .dsb $2000, $00 ; no CHR data so pad 8KB
 {% endhighlight %}
-
-Forgive the bad formatting from WordPress. If I do decide to go through more of them I’ll also post the code here as well.
