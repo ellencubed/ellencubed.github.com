@@ -1,0 +1,17 @@
+<div class="pagemenu">
+  {% if page.title != "Home" %}
+  <a href="/">HOME</a>
+  {% else %}
+  HOME
+  {% endif %}
+  {% if page.title != "Blog" %}
+  <a href="/blog.html">BLOG</a>
+  {% else %}
+  BLOG
+  {% endif %}
+  {% if page.title != "About" %}
+  <a href="/about.html">ABOUT</a>
+  {% else %}
+  ABOUT
+  {% endif %}
+</div>

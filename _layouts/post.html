@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post">
+    <h1>{{ page.title }}</h1>
+	<div class="pheader">
+    <b>Posted:</b> {{ page.date | date: "%B %d, %Y"}} |
+	<b>Filed under:</b> {% if page.catagories %}{% for cat in page.catagories %}{{ cat }} {% endfor %}{% else %}Was just left lying around{% endif %} |
+	<b>Tags:</b> {% for tag in page.tags %}{{ tag }} {% endfor %}
+	</div>
+	<div class="box sbox">
+    {{ content }}
+	</div>
+</div>
+

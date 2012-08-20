@@ -1,0 +1,7 @@
+safe: true
+auto: true
+server: true
+pygments: true
+future: false
+title: "ELLENCUBED"
+subtitle: "> _"
